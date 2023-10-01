@@ -1,16 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Young+Serif&display=swap');
+
 body{
-    background: url('bg4.jpg');
+background: url('bg4.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 height: 665px;
 width: 1300px;
+font-family: 'Young Serif', serif;
+
 }
 
 .container {
+   
     text-align: center;
     margin-top: 25px;
+    
 }
+
 
 table {
     margin: auto;
@@ -35,6 +42,11 @@ border-radius: 11px;
 margin: 5px;
 color: white;
   }
+
+button:hover{
+    cursor: pointer;
+}
+
 .calculator{
     display: inline-block;
     background-color: #1c1c1c;
